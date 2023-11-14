@@ -20,7 +20,7 @@ header {
 /* Navigation styling using flexbox for horizontal layout */
 nav { 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    background-color: ;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -31,6 +31,7 @@ nav ul {
 }
 nav li {
   display: inline;
+  margin: 40px;
 }
 nav a {
   text-decoration: none;
@@ -45,4 +46,22 @@ nav a:hover {
 section {
     padding: 20px;
     text-align: center;
-}  
+}
+/* Biography section visual treatment */
+#about {
+    background-color: #f4f4f4;
+    border-radius: 100px; /* You can adjust the value to control the roundness */
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+}
+/* Hobbies section visual treatment */
+#hobbies {
+    background-color: #e0e0e0;
+    border-radius: 100px; /* You can adjust the value to control the roundness */
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+}
+/* Vision section visual treatment */
+#vision {
+    background-color: #d4d4d4;
+    border-radius: 100px; /* You can adjust the value to control the roundness */
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+}
