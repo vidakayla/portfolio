@@ -1,0 +1,12 @@
+/* Google Font for the primary heading */
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 90px;
+  }
+/* This is the base styling for all HTML elements */
+body {
+    font-family:'Courier New', Courier, monospace, sans-serif; /* Font fallback in case the primary font is not available */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
