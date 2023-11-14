@@ -2,17 +2,17 @@
 h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 70px;
+    color:#333
 }
 /* This is the base styling for all HTML elements */
 body {
-    font-family:'Courier New', Courier, monospace; /* Font fallback in case the primary font is not available */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; /* Font fallback in case the primary font is not available */
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 /* Header styling */
 header {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -20,7 +20,7 @@ header {
 /* Navigation styling using flexbox for horizontal layout */
 nav { 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    background-color: #444;
+    background-color: ;
     display: flex;
     justify-content: center;
 }
@@ -35,12 +35,12 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
   font-weight: bolder;
 }
 /* Change the color when hovering */
 nav a:hover {
-    color: rgb(255, 191, 0) /* Change to the desired hover color */
+    color: #fcbe11 /* Change to the desired hover color */
 }
 /* Section styling */
 section {
