@@ -1,17 +1,17 @@
 /* Google Font for the primary heading */
 h1 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 70px;
-    color:#333;
-    margin-bottom: 50px; /* Add spacing below the heading */
+    font-size: 2.5em; /* Adjusted font size for a cleaner look */
+    color: #333;
+    margin-bottom: 20px; /* Reduced spacing below the heading for a more compact feel */
 }
 /* Style for the figure element containing an image */
 /* Image styling */
 img {
-    width: 180px; /* Set the desired width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Make the image a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 /* This is the base styling for all HTML elements */
 body {
@@ -32,6 +32,7 @@ nav {
     background-color: white;
     display: flex;
     justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
 }
 nav ul {
     list-style: none;
@@ -45,7 +46,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #333;
-  font-weight: bolder;
+  font-weight: bold;
   transition: color 0.3s; /* Smooth color transition on hover */
 }
 /* Change the color and add an underline when hovering */
@@ -62,9 +63,29 @@ section {
 #designs {
     text-align: center;
 }
+/* Container for figures, making it a flex container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+/* Style for each figure */
+figure {
+    text-align: center;
+}
+
+/* Image styling */
+figure img {
+    max-height: 500px; /* Set the desired height */
+    width: auto; /* Maintain the aspect ratio */
+}
+/* Optional: Adjust spacing between figures */
+figure + figure {
+    margin-left: 20px; /* Adjust as needed */
+}
 /* Image styling */
 img {
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
 }
 /* Table styling */
@@ -78,6 +99,10 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: center;
+}
+/* Add hover effect for better user experience */
+tr:hover {
+    background-color: #f0f0f0;
 }
 /* Links styling */
 a {
