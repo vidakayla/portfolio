@@ -50,20 +50,32 @@ section {
 /* Biography section visual treatment */
 #about {
     background-color: #f4f4f4;
-    border-radius: 100px; /* You can adjust the value to control the roundness */
-    padding: 20px; /* Optional: Add padding for better visual appearance */
+    border-radius: 70px; /* You can adjust the value to control the roundness */
+    padding: 30px; /* Optional: Add padding for better visual appearance */
+    /* Adjust the width and margin to control the size and position of the background */
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-bottom: 29px; /* Add margin to create space between sections */
 }
 /* Hobbies section visual treatment */
 #hobbies {
     background-color: #e0e0e0;
-    border-radius: 100px; /* You can adjust the value to control the roundness */
-    padding: 20px; /* Optional: Add padding for better visual appearance */
+    border-radius: 70px; /* You can adjust the value to control the roundness */
+    padding: 30px; /* Optional: Add padding for better visual appearance */
+    /* Adjust the width and margin to control the size and position of the background */
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-bottom: 29px; /* Add margin to create space between sections */
 }
 /* Vision section visual treatment */
 #vision {
     background-color: #d4d4d4;
-    border-radius: 100px; /* You can adjust the value to control the roundness */
-    padding: 20px; /* Optional: Add padding for better visual appearance */
+    border-radius: 70px; /* You can adjust the value to control the roundness */
+    padding: 30px; /* Optional: Add padding for better visual appearance */
+    /* Adjust the width and margin to control the size and position of the background */
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-bottom: 29px; /* Add margin to create space between sections */
 }
 /* Designs section styling */
 #designs {
