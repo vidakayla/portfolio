@@ -3,6 +3,7 @@ h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 70px;
     color:#333;
+    margin-bottom: 50px; /* Add spacing below the heading */
 }
 /* This is the base styling for all HTML elements */
 body {
@@ -37,45 +38,17 @@ nav a {
   text-decoration: none;
   color: #333;
   font-weight: bolder;
+  transition: color 0.3s; /* Smooth color transition on hover */
 }
-/* Change the color when hovering */
+/* Change the color and add an underline when hovering */
 nav a:hover {
-    color: #fcbe11 /* Change to the desired hover color */
+    color: #FECB00;
+    text-decoration: underline;
 }
 /* Section styling */
 section {
-    padding: 20px;
+    padding: 40px; /* Add more padding for a spacious feel */
     text-align: center;
-}
-/* Biography section visual treatment */
-#about {
-    background-color: #f4f4f4;
-    border-radius: 70px; /* You can adjust the value to control the roundness */
-    padding: 30px; /* Optional: Add padding for better visual appearance */
-    /* Adjust the width and margin to control the size and position of the background */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the element horizontally */
-    margin-bottom: 29px; /* Add margin to create space between sections */
-}
-/* Hobbies section visual treatment */
-#hobbies {
-    background-color: #e0e0e0;
-    border-radius: 70px; /* You can adjust the value to control the roundness */
-    padding: 30px; /* Optional: Add padding for better visual appearance */
-    /* Adjust the width and margin to control the size and position of the background */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the element horizontally */
-    margin-bottom: 29px; /* Add margin to create space between sections */
-}
-/* Vision section visual treatment */
-#vision {
-    background-color: #d4d4d4;
-    border-radius: 70px; /* You can adjust the value to control the roundness */
-    padding: 30px; /* Optional: Add padding for better visual appearance */
-    /* Adjust the width and margin to control the size and position of the background */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the element horizontally */
-    margin-bottom: 29px; /* Add margin to create space between sections */
 }
 /* Designs section styling */
 #designs {
@@ -96,7 +69,7 @@ table, th, td {
 }
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 /* Links styling */
 a {
@@ -105,4 +78,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
-  
+/* Aside (Contact information) styling */
+aside {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* Footer styling */
+footer {
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
