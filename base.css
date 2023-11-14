@@ -74,6 +74,15 @@ figure {
     text-align: center;
 }
 
+/* Figure animation */
+figure {
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transformation on hover */
+}
+/* Scale up figure on hover */
+figure:hover {
+    transform: scale(1.2);
+}
 /* Image styling */
 figure img {
     max-height: 500px; /* Set the desired height */
@@ -99,6 +108,10 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: center;
+}
+/* Table row animation */
+tr {
+    transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition on hover */
 }
 /* Add hover effect for better user experience */
 tr:hover {
