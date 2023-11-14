@@ -65,3 +65,32 @@ section {
     border-radius: 100px; /* You can adjust the value to control the roundness */
     padding: 20px; /* Optional: Add padding for better visual appearance */
 }
+/* Designs section styling */
+#designs {
+    text-align: center;
+}
+/* Image styling */
+img {
+    max-width: 60%;
+    height: auto;
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+/* Links styling */
+a {
+  color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+  
