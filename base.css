@@ -1,7 +1,14 @@
 /* Google Font for the primary heading */
 h1 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 66px;
+    font-size: 70px;
+  }
+/* This is the base styling for all HTML elements */
+body {
+    font-family:'Courier New', Courier, monospace; /* Font fallback in case the primary font is not available */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
   }
 /* Header styling */
 header {
@@ -9,10 +16,4 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-/* This is the base styling for all HTML elements */
-body {
-    font-family:'Courier New', Courier, monospace; /* Font fallback in case the primary font is not available */
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
   }
