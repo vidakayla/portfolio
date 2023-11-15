@@ -19,30 +19,26 @@ body {
 }
 /* Header styling */
 header {
-    color: #fff;
     text-align: center;
     padding: 20px;
 }
 /* Navigation styling using flexbox for horizontal layout */
 nav {
     font-family: 'Marcellus', sans-serif;
-    background-color: white;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     font-weight: bolder;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 nav li {
     display: inline;
     margin: 40px;
 }
-
 nav a {
     text-decoration: none;
     color: #333;
@@ -54,7 +50,7 @@ nav a {
 nav a:hover {
     color: #FFF;
     text-decoration: none; /* Remove underline */
-    background-color: #333; /* Background color on hover */
+    background-color: #ea0505; /* Background color on hover */
     border-radius: 10px; /* Add roundness to the background */
 }
 /* Section styling */
@@ -77,13 +73,11 @@ figure {
     margin: 0 10px; /* Add margin for spacing between figures */
     text-align: center;
     position: relative; /* Add position relative for absolute positioning of background */
-    overflow: hidden; /* Ensure the background covers the entire figure */
 }
 /* Figure animation */
 figure {
     transition: transform 0.3s ease-in-out; /* Add a smooth transformation on hover */
 }
-
 /* Scale up figure on hover */
 figure:hover {
     transform: scale(1.1);
@@ -92,24 +86,24 @@ figure img {
     max-height: 300px; /* Set the desired height */
     width: auto; /* Maintain the aspect ratio */
 }
-
 /* Style for the figcaption (initially hidden) */
 figcaption {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Text color on top of the background */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 10px; /* Add padding for better readability */
+    text-transform: lowercase;
+    color: #fff; /* Text color on top of the background */
+    background-color: #333;
+    padding: 10px;
     opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 60px;
 }
-
 /* Show the description on hover */
 figure:hover figcaption {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 1); /* Make the background fully opaque on hover */
+    opacity: 100%;
+    background-color: #ea0505; /* Make the background fully opaque on hover */
 }
 /* Table styling */
 table {
