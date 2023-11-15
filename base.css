@@ -24,31 +24,38 @@ header {
     padding: 20px;
 }
 /* Navigation styling using flexbox for horizontal layout */
-nav { 
-    font-family:'Marcellus', sans-serif;
+nav {
+    font-family: 'Marcellus', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
-    font-weight:bolder;
+    font-weight: bolder;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 nav li {
-  display: inline;
-  margin: 40px;
+    display: inline;
+    margin: 40px;
 }
+
 nav a {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s; /* Smooth color transition on hover */
+    text-decoration: none;
+    color: #333;
+    text-transform: lowercase; /* Convert text to lowercase */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    padding: 5px 10px; /* Add padding to create space for the background */
 }
-/* Change the color and add an underline when hovering */
+/* Hovering */
 nav a:hover {
-    color: #FECB00;
-    text-decoration: underline;
+    color: #FFF;
+    text-decoration: none; /* Remove underline */
+    background-color: #333; /* Background color on hover */
+    border-radius: 10px; /* Add roundness to the background */
 }
 /* Section styling */
 section {
