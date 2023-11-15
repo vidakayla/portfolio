@@ -1,21 +1,18 @@
 /* Google Font for the primary heading */
 h1 {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Homemade Apple', sans-serif;
     font-size: 2.5em; /* Adjusted font size for a cleaner look */
     color: #333;
     margin-bottom: 20px; /* Reduced spacing below the heading for a more compact feel */
 }
-/* Style for the figure element containing an image */
-/* Image styling */
-img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.logo-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* This is the base styling for all HTML elements */
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; /* Font fallback in case the primary font is not available */
+    font-family: 'Marcellus', sans-serif ; /* Font fallback in case the primary font is not available */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -28,11 +25,11 @@ header {
 }
 /* Navigation styling using flexbox for horizontal layout */
 nav { 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    font-family:'Marcellus', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    font-weight:bolder;
 }
 nav ul {
     list-style: none;
@@ -46,7 +43,6 @@ nav li {
 nav a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
   transition: color 0.3s; /* Smooth color transition on hover */
 }
 /* Change the color and add an underline when hovering */
@@ -68,34 +64,45 @@ section {
     display: flex;
     justify-content: space-between; /* Adjust as needed */
 }
-
 /* Style for each figure */
 figure {
+    display: inline-block;
+    margin: 0 10px; /* Add margin for spacing between figures */
     text-align: center;
+    position: relative; /* Add position relative for absolute positioning of background */
+    overflow: hidden; /* Ensure the background covers the entire figure */
 }
-
 /* Figure animation */
 figure {
-    text-align: center;
     transition: transform 0.3s ease-in-out; /* Add a smooth transformation on hover */
 }
+
 /* Scale up figure on hover */
 figure:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
-/* Image styling */
 figure img {
-    max-height: 500px; /* Set the desired height */
+    max-height: 300px; /* Set the desired height */
     width: auto; /* Maintain the aspect ratio */
 }
-/* Optional: Adjust spacing between figures */
-figure + figure {
-    margin-left: 20px; /* Adjust as needed */
+
+/* Style for the figcaption (initially hidden) */
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color on top of the background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px; /* Add padding for better readability */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
 }
-/* Image styling */
-img {
-    max-width: 90%;
-    height: auto;
+
+/* Show the description on hover */
+figure:hover figcaption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 1); /* Make the background fully opaque on hover */
 }
 /* Table styling */
 table {
