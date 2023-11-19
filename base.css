@@ -144,3 +144,25 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    nav li {
+        margin: 5px; /* Adjust margin for mobile */
+    }
+
+    nav a {
+        padding: 10px; /* Increase padding for mobile */
+    }
+
+    section {
+        padding: 10px; /* Add less padding for a more compact feel on mobile */
+    }
+
+    .container {
+        justify-content: center; /* Center items on smaller screens */
+    }
+
+    figure {
+        margin: 0 5px; /* Adjust margin for spacing between figures on mobile */
+    }
+}
