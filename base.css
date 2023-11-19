@@ -20,7 +20,7 @@ body {
 /* Header styling */
 header {
     text-align: center;
-    padding: 20px;
+    padding: 2=0px;
 }
 /* Navigation styling using flexbox for horizontal layout */
 nav {
@@ -147,11 +147,11 @@ footer {
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
     nav li {
-        margin: 5px; /* Adjust margin for mobile */
+        margin: 3px; /* Adjust margin for mobile */
     }
 
     nav a {
-        padding: 10px; /* Increase padding for mobile */
+        padding: 20px; /* Increase padding for mobile */
     }
 
     section {
