@@ -110,22 +110,21 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
 table, th, td {
     border: 1px solid #ddd;
 }
+
 th, td {
     padding: 10px;
     text-align: center;
 }
-/* Table row animation */
-tr {
-    transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition on hover */
+
+/* Apply different background color to the first row */
+tr:first-child {
+    background-color: #ea0505;
+    color: #fff;
 }
-/* Add hover effect for better user experience */
-tr:hover {
-    background-color: #f0f0f0;
-}
-/* Links styling */
 a {
   color: #007bff;
 }
