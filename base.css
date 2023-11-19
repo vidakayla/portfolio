@@ -20,7 +20,7 @@ body {
 /* Header styling */
 header {
     text-align: center;
-    padding: 2=0px;
+    padding: 0px;
 }
 /* Navigation styling using flexbox for horizontal layout */
 nav {
