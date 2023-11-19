@@ -146,13 +146,17 @@ footer {
 }
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
+    nav {
+        text-align: center; /* Center the text within the nav */
+    }
     nav li {
         margin: 5px; /* Adjust margin for mobile */
+        display: inline-block; /* Horizontal list items */
     }
 
     nav a {
         padding: 10px; /* Increase padding for mobile */
-        font-size: 10px; /* Set the desired font size for mobile */
+        display: block;
     }
 
     section {
@@ -161,6 +165,7 @@ footer {
 
     .container {
         justify-content: center; /* Center items on smaller screens */
+        width: 100%;
     }
 
     figure {
