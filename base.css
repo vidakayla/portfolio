@@ -147,11 +147,12 @@ footer {
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
     nav li {
-        margin: 3px; /* Adjust margin for mobile */
+        margin: 5px; /* Adjust margin for mobile */
     }
 
     nav a {
-        padding: 20px; /* Increase padding for mobile */
+        padding: 10px; /* Increase padding for mobile */
+        font-size: 10px; /* Set the desired font size for mobile */
     }
 
     section {
