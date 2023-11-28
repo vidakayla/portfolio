@@ -15,16 +15,15 @@ document.addEventListener('DOMContentLoaded', function() {
   footer.textContent = '\u00A9 ' + currentYear + ' Vida Kayla. All rights reserved.';
 });
 //hover
-// Cache the button element reference
-var buttonElement = document.getElementById('id');
-// Define the new button label
-var newButtonLabel = 'new button label';
-// Define the default button label
-var defaultButtonLabel = 'default button label';
-// Set up event listeners
-buttonElement.addEventListener('mouseover', function() {
-    buttonElement.innerText = newButtonLabel;
+const myButton = document.getElementById('alertButton');
+// Store the default and new button labels in variables
+const defaultLabel = 'Human interaction please!';
+const newLabel = 'Please give me attention human!';
+// Add mouseover event listener
+myButton.addEventListener('mouseover', () => {
+    myButton.innerText = newLabel;
 });
-buttonElement.addEventListener('mouseleave', function() {
-    buttonElement.innerText = defaultButtonLabel;
+// Add mouseleave event listener
+myButton.addEventListener('mouseleave', () => {
+    myButton.innerText = defaultLabel;
 });
