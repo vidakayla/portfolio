@@ -172,3 +172,10 @@ footer {
         margin: 0 5px; /* Adjust margin for spacing between figures on mobile */
     }
 }
+/* Define styles for even and odd classes */
+.even {
+    color: green; /* Change to your desired color for even numbers */
+}
+.odd {
+    color: red; /* Change to your desired color for odd numbers */
+}

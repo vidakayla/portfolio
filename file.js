@@ -31,9 +31,16 @@ myButton.addEventListener('mouseleave', () => {
 let count = 1;
 // Add click event listener to the button
 document.getElementById('btn-counter').onclick = () => {
-    // Increment the count
+// Increment the count
     count = count + 1;
-
-    // Update the text content of the paragraph
+// Update the text content of the paragraph
     document.getElementById('txt-counter').innerHTML = 'Number: ' + count;
+//Odd even
+const txtCounter = document.getElementById('txt-counter');
+    txtCounter.classList.remove('even', 'odd'); // Remove existing classes
+    if (count % 2 === 0) {
+        txtCounter.classList.add('even');
+    } else {
+        txtCounter.classList.add('odd');
+    }
 };
