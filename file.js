@@ -1,5 +1,10 @@
-function showAlert() {
-    alert("Button clicked!");
-  }
-var button = document.getElementById("alertButton");
-button.addEventListener("click", showAlert);
+document.addEventListener('DOMContentLoaded', function() {
+    // Select the button by its ID
+    var alertButton = document.getElementById('alertButton');
+
+    // Add a click event listener to the button
+    alertButton.addEventListener('click', function() {
+        // Display an alert when the button is clicked
+        alert('Hello!');
+    });
+});
