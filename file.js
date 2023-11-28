@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     button.addEventListener("click", function() {
       alert("Thank you human!");
     });
-  });
+});
 //footer
 document.addEventListener('DOMContentLoaded', function() {
   // Get the current year
