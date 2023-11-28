@@ -1,0 +1,174 @@
+/* Google Font for the primary heading */
+h1 {
+    font-family: 'Homemade Apple', sans-serif;
+    font-size: 2.5em; /* Adjusted font size for a cleaner look */
+    color: #333;
+    margin-bottom: 20px; /* Reduced spacing below the heading for a more compact feel */
+}
+.logo-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* This is the base styling for all HTML elements */
+body {
+    font-family: 'Marcellus', sans-serif ; /* Font fallback in case the primary font is not available */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Header styling */
+header {
+    text-align: center;
+    padding: 0px;
+}
+/* Navigation styling using flexbox for horizontal layout */
+nav {
+    font-family: 'Marcellus', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    text-transform: lowercase; /* Convert text to lowercase */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    padding: 5px 10px; /* Add padding to create space for the background */
+}
+/* Hovering */
+nav a:hover {
+    color: #FFF;
+    text-decoration: none; /* Remove underline */
+    background-color: #ea0505; /* Background color on hover */
+    border-radius: 10px; /* Add roundness to the background */
+}
+/* Section styling */
+section {
+    padding: 40px; /* Add more padding for a spacious feel */
+    text-align: center;
+}
+/* Designs section styling */
+#designs {
+    text-align: center;
+}
+/* Container for figures, making it a flex container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+/* Style for each figure */
+figure {
+    display: inline-block;
+    margin: 0 10px; /* Add margin for spacing between figures */
+    text-align: center;
+    position: relative; /* Add position relative for absolute positioning of background */
+}
+/* Figure animation */
+figure {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transformation on hover */
+}
+/* Scale up figure on hover */
+figure:hover {
+    transform: scale(1.1);
+}
+figure img {
+    max-height: 300px; /* Set the desired height */
+    width: auto; /* Maintain the aspect ratio */
+}
+/* Style for the figcaption (initially hidden) */
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: lowercase;
+    color: #fff; /* Text color on top of the background */
+    background-color: #333;
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 60px;
+}
+/* Show the description on hover */
+figure:hover figcaption {
+    opacity: 100%;
+    background-color: #ea0505; /* Make the background fully opaque on hover */
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Apply different background color to the first row */
+tr:first-child {
+    background-color: #ea0505;
+    color: #fff;
+}
+a {
+  color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Aside (Contact information) styling */
+aside {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* Footer styling */
+footer {
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center; /* Center the text within the nav */
+    }
+    nav li {
+        margin: 5px; /* Adjust margin for mobile */
+        display: inline-block; /* Horizontal list items */
+    }
+
+    nav a {
+        padding: 10px; /* Increase padding for mobile */
+        display: block;
+    }
+
+    section {
+        padding: 10px; /* Add less padding for a more compact feel on mobile */
+    }
+
+    .container {
+        justify-content: center; /* Center items on smaller screens */
+        width: 100%;
+    }
+
+    figure {
+        margin: 0 5px; /* Adjust margin for spacing between figures on mobile */
+    }
+}
