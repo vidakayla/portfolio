@@ -27,3 +27,13 @@ myButton.addEventListener('mouseover', () => {
 myButton.addEventListener('mouseleave', () => {
     myButton.innerText = defaultLabel;
 });
+//incrementing button
+let count = 1;
+// Add click event listener to the button
+document.getElementById('btn-counter').onclick = () => {
+    // Increment the count
+    count = count + 1;
+
+    // Update the text content of the paragraph
+    document.getElementById('txt-counter').innerHTML = 'Number: ' + count;
+};
