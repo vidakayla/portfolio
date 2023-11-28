@@ -1,8 +1,7 @@
-//alert 
-document.addEventListener('DOMContentLoaded', function() {
-    var alertButton = document.getElementById('alertButton');
-
-    alertButton.addEventListener('click', function() {
-        alert('Hello world!');
+//alert button 
+document.addEventListener("DOMContentLoaded", function() {
+    var button = document.getElementById("alertButton");
+    button.addEventListener("click", function() {
+      alert("Button clicked!");
     });
-});
+  });
