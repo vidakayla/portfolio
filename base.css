@@ -179,3 +179,30 @@ footer {
 .odd {
     color: red; /* Change to your desired color for odd numbers */
 }
+/* Add styles for the alertButton */
+#alertButton {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+  /* Add styles for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Add styles for the hover effect on the alertButton */
+#alertButton:hover {
+    background-color: #8bb68d;
+}
+/* Add styles for the incrementing button and counter text */
+#btn-counter {
+    padding: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+  
