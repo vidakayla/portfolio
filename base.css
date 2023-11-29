@@ -181,12 +181,27 @@ footer {
 }
 /* Add styles for the alertButton */
 #alertButton {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
+    width: 100px; /* Set the width and height to create a circular shape */
+    height: 100px;
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 50%; /* Create a circular shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    z-index: 999; /* Set a higher z-index to make sure it's above other content */
+  }
+/* Optional: Add transition for a smoother effect */
+  #alertButton:hover {
+    background-color: #45a049; /* Change background color on hover */
+    transition: background-color 0.3s ease;
 }
-  /* Add styles for the footer */
+/* Add styles for the footer */
 footer {
     background-color: #333;
     color: white;
