@@ -172,13 +172,6 @@ footer {
         margin: 0 5px; /* Adjust margin for spacing between figures on mobile */
     }
 }
-/* Define styles for even and odd classes */
-.even {
-    color: green; /* Change to your desired color for even numbers */
-}
-.odd {
-    color: red; /* Change to your desired color for odd numbers */
-}
 /* Add styles for the alertButton */
 #alertButton {
     width: 100px; /* Set the width and height to create a circular shape */
@@ -215,9 +208,33 @@ footer {
 /* Add styles for the incrementing button and counter text */
 #btn-counter {
     padding: 8px;
-    background-color: #3498db;
+    border: none;
+    background-color: #ff0000;
     color: white;
     cursor: pointer;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    position: fixed; /* Fix the position */
+    bottom: 10px; /* Set the distance from the bottom */
+    left: 10px; /* Set the distance from the left */
 }
-
-  
+/* Style for even count */
+.even {
+    color: green; /* Change the text color for even count */
+    background-color: #3b8f79; /* Change the background color for even count */
+}
+/* Style for odd count */
+.odd {
+    color: red; /* Change the text color for odd count */
+    background-color: #874e4e; /* Change the background color for odd count */
+}
+/* Add any other styles you want for the elements */
+#txt-counter {
+    /* Paragraph styles */
+    font-size: 18px;
+    border: none;
+    border-radius: 100%; /* Set border-radius to 50% for a circle */
+    padding: 20px; /* Add padding for space between count and background */
+    position: fixed; /* Fix the position */
+    top: 10px; /* Set the distance from the top */
+    left: 10px; /* Set the distance from the left */
+}
